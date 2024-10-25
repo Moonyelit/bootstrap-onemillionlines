@@ -13,13 +13,14 @@ h3 {
   font-family: arvo, sans-serif;
 }
 
-p{
-    font-family: Arial, Helvetica, sans-serif;
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
 }
 
-h2{
-    color: #d9534f;
-    margin: 1rem 0;
+h2,h3 {
+  color: #d9534f;
+  margin: 1rem 0;
 }
 
 /* ANOTHER */
@@ -28,10 +29,14 @@ h2{
   padding: 0;
 }
 
-.ligne{
-    width: 50%;
-    border : 1.5px solid #d9534f;
-    margin-bottom: 1rem;
+.ligne {
+  width: 20%;
+  border: 1.5px solid #d9534f;
+  margin-bottom: 1rem;
+}
+
+body,html{
+    scroll-behavior: smooth;
 }
 
 /* HEADER */
@@ -45,7 +50,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 15%;
-  margin-bottom: 3rem;
 }
 
 .nav-links {
@@ -69,22 +73,20 @@ header {
 }
 
 #home h1 {
-    color: white;
-    margin-bottom: 3rem;
-  }
+  color: white;
+  margin-bottom: 3rem;
+}
 
 #home p {
   color: white;
   margin-bottom: 3rem;
 }
 
-
 h1 {
   font-size: 3rem;
 }
 
-#home
-span {
+#home span {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
@@ -103,14 +105,77 @@ span {
 }
 
 /* SECTION #2 */
-
 #who {
-    height: 35vh;
-    padding: 0 31%;
-    text-align: center;
-
+  height: 35vh;
+  padding: 0 31%;
+  text-align: center;
 }
 
+#who span {
+  color: #d9534f;
+}
+
+/* SECTION #3 */
+.icones {
+  height: 60px;
+  margin: 10px 10px;
+}
+
+#get-involved {
+padding-top: 3rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.get-involved-articles{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 10% 4%;
+}
+
+.articles{
+    padding: 0% 9em;
+}
+
+.articles p{
+    margin-bottom: 1.5em;
+}
+
+.cta-petit{
+    background: white;
+    border: 1px rgb(193, 191, 191) solid;
+    color:  #d9534f;
+    border-radius: 5px;
+    padding: 5% 5%;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+/* FOOTER */
+footer {
+  background-color: #d9534f;
+  height: 20vh
+}
+
+.footer-img{
+display: flex;
+}
+
+#back-to-top {
+    position: fixed;
+    right: 30px;
+    top: 45%;
+}
+
+#back-to-top button {
+    background-color: #222222;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+}
 
 
 /* Responsive Styling */
