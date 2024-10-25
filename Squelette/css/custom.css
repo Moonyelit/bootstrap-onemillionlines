@@ -13,10 +13,25 @@ h3 {
   font-family: arvo, sans-serif;
 }
 
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+    color: #d9534f;
+    margin: 1rem 0;
+}
+
 /* ANOTHER */
 * {
   margin: 0;
   padding: 0;
+}
+
+.ligne{
+    width: 50%;
+    border : 1.5px solid #d9534f;
+    margin-bottom: 1rem;
 }
 
 /* HEADER */
@@ -30,6 +45,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 15%;
+  margin-bottom: 3rem;
 }
 
 .nav-links {
@@ -47,22 +63,27 @@ header {
 #home {
   height: 70vh;
   background-image: url(../images/hero-image.jpg);
+  text-align: center;
   padding: 3rem 31%;
+  margin-bottom: 4rem;
 }
 
-#home,
-p,
-h1 {
+#home h1 {
+    color: white;
+    margin-bottom: 3rem;
+  }
+
+#home p {
   color: white;
-  text-align: center;
   margin-bottom: 3rem;
 }
+
 
 h1 {
   font-size: 3rem;
 }
 
-#home,
+#home
 span {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -80,6 +101,17 @@ span {
   height: auto;
   margin-top: 2rem;
 }
+
+/* SECTION #2 */
+
+#who {
+    height: 35vh;
+    padding: 0 31%;
+    text-align: center;
+
+}
+
+
 
 /* Responsive Styling */
 @media (max-width: 1199px) {
