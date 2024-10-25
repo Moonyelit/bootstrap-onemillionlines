@@ -3,8 +3,14 @@
 /* FONTS */
 .arvo-regular {
   font-family: "Arvo", serif;
-  font-weight: 400;
+  font-weight: 100;
   font-style: normal;
+}
+
+h1,
+h2,
+h3 {
+  font-family: arvo, sans-serif;
 }
 
 /* ANOTHER */
@@ -34,13 +40,45 @@ header {
   color: white;
   text-decoration: none;
   margin-right: 50px;
+  font-family: arvo, sans-serif;
 }
 
 /* SECTION #1 */
-#home{
-    height: 80vh ;
-    width: auto;
-    background-image: (../);
+#home {
+  height: 70vh;
+  background-image: url(../images/hero-image.jpg);
+  padding: 3rem 31%;
+}
+
+#home,
+p,
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+#home,
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.cta {
+  background: #d9534f;
+  color: white;
+  border-radius: 5px;
+  padding: 2% 3%;
+  font-size: 2rem;
+}
+
+.code {
+  height: auto;
+  margin-top: 2rem;
 }
 
 /* Responsive Styling */
