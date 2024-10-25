@@ -1,18 +1,54 @@
 /* Vos customisations des classes de Bootstrap */
 
+/* FONTS */
+.arvo-regular {
+  font-family: "Arvo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
+/* ANOTHER */
+* {
+  margin: 0;
+  padding: 0;
+}
 
+/* HEADER */
+/* NAVLINK */
+header {
+  background-color: #222222;
+}
+
+.main-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 15%;
+}
+
+.nav-links {
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+}
+
+/* SECTION #1 */
+#home{
+    height: 80vh ;
+    width: auto;
+    background-image: (../);
+}
 
 /* Responsive Styling */
-
 @media (max-width: 1199px) {
-
 }
 
 @media (max-width: 991px) {
-
 }
 
 @media (max-width: 767px) {
-
 }
